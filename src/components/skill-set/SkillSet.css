@@ -1,0 +1,101 @@
+.skill-sets {
+  position: absolute;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(31, 1, 29, 0.7);
+  border-radius: 16px;
+  padding: 24px;
+  z-index: 3;
+}
+
+.search-skills-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 36px;
+  min-width: 240px;
+  width: 40%;
+  padding: 6px 8px;
+  margin-bottom: 16px;
+  outline: 1px solid #222;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.search-skills-form img {
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
+}
+
+.search-skills-form input {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.skill-set {
+  margin: 16px 0 32px 0;
+}
+.skills-title {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.skill-set-body {
+  flex: 1;
+  overflow: auto;
+}
+
+.skill-icon-container {
+  margin: 0 16px 16px 16px;
+}
+
+.skill-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.skill-icon-name {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* scrollbar container */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .skill-sets {
+    background-color: rgba(31, 1, 29, 0.85);
+  }
+
+  .search-skills-form {
+    width: 60%;
+  }
+}

@@ -1,0 +1,30 @@
+.folder-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+
+.folder-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.folder-icon-img {
+  height: 50px;
+}
+
+.folder-icon-text {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-me {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
