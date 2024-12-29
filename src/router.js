@@ -8,10 +8,10 @@ import SkillSet from "./components/skill-set/SkillSet.vue";
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", name: ROUTES.HOME },
+  { path: "/", redirect: "/about" },
   { path: "/about", name: ROUTES.ABOUT, component: About },
   { path: "/skills", name: ROUTES.SKILLS, component: SkillSet },
-  { path: "*", redirect: { name: ROUTES.HOME } },
+  { path: "*", redirect: { name: ROUTES.ABOUT } },
 ];
 
 const router = new VueRouter({

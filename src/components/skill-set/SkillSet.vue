@@ -4,7 +4,6 @@
       <form
         class="search-skills-form"
         onsubmit="return false"
-        data-netlify="true"
       >
         <img :src="ICONS.searchIcon" alt="search-icon" />
         <input

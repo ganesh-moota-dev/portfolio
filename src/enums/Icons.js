@@ -5,7 +5,7 @@ const ICONS = {
 
   chromeIcon: "/images/chrome-icon.png",
   terminalIcon: "/images/terminal-icon.png",
-  vsCodeIcon: "/images/vscode-icon.png",
+  vscode: "/images/vscode-icon.png",
 
   html5: "/images/tech/html5.svg",
   css3: "/images/tech/css3.svg",
@@ -34,6 +34,14 @@ const ICONS = {
   aws: "/images/tech/aws.png",
 
   dotnet: "/images/tech/dotnet.png",
+  jenkins: "/images/tech/jenkins.svg",
+  mysqlWorkbench: "/images/tech/mysql-workbench.svg",
+  docker: "/images/tech/docker.svg",
+  lambda: "/images/tech/lambda.svg",
+  ec2: "/images/tech/EC2.svg",
+  s3: "/images/tech/s3.svg",
+  K6: "/images/tech/K6.svg",
+  Grafana: "/images/tech/Grafana.svg"
 };
 
 export default ICONS;

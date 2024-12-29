@@ -1,56 +1,59 @@
 import ICONS from "@/enums/Icons";
 
 export const skills = {
-  "programmingLanguages": {
+  programming: {
     title: "Programming Languages",
     list: [
-      { name: "c", iconPath: ICONS.c },
-      { name: "cpp", iconPath: ICONS.cpp },
-      { name: "python", iconPath: ICONS.python },
-      { name: "java", iconPath: ICONS.java },
-      { name: "javascript", iconPath: ICONS.javascript },
-      { name: "typescript", iconPath: ICONS.typescript },
-      { name: "c#", iconPath: ICONS.csharp },
-      { name: "dart", iconPath: ICONS.dart },
+      { name: "C", iconPath: ICONS.c },
+      { name: "C++", iconPath: ICONS.cpp },
+      { name: "Java", iconPath: ICONS.java },
+      { name: "Python", iconPath: ICONS.python },
+      { name: "JavaScript", iconPath: ICONS.javascript },
+      { name: "C#", iconPath: ICONS.csharp },
     ],
   },
-  frontendSkills: {
-    title: "Frontend Skills",
-    "list": [
-      { name: "html", iconPath: ICONS.html5 },
-      { name: "css", iconPath: ICONS.css3 },
-      { name: "bootstrap", iconPath: ICONS.bootstrap },
-      { name: "js", iconPath: ICONS.javascript },
-    ],
-  },
-  frontendFrameworks: {
-    title: "Frontend Frameworks/ Libraries",
+  webDevelopment: {
+    title: "Web Development",
     list: [
-      { name: "ReactJs", iconPath: ICONS.reactJs },
-      { name: "AngularJs", iconPath: ICONS.angularJs },
-      { name: "VueJs", iconPath: ICONS.vueJs },
+      { name: "HTML", iconPath: ICONS.html5 },
+      { name: "CSS", iconPath: ICONS.css3 },
+      { name: "JavaScript", iconPath: ICONS.javascript },
+      { name: "React.js", iconPath: ICONS.reactJs },
+      { name: "Vue.js", iconPath: ICONS.vueJs },
+      { name: "Node.js", iconPath: ICONS.nodejs },
+      { name: ".NET", iconPath: ICONS.dotnet },
     ],
   },
-  backendSkills: {
-    title: "Backend Skills",
+  databases: {
+    title: "Databases",
     list: [
-      { name: "NodeJs", iconPath: ICONS.nodejs },
-      { name: ".Net", iconPath: ICONS.dotnet },
+      { name: "MongoDB", iconPath: ICONS.mongodb },
+      { name: "MariaDB", iconPath: ICONS.mariadb },
     ],
   },
-  databaseSkills: {
-    title: "Database Skills",
-    list: [
-      { name: "MongoDb", iconPath: ICONS.mongodb },
-      { name: "MariaDb", iconPath: ICONS.mariadb },
-    ],
-  },
-  otherSkills: {
-    title: "Other Skills",
+  devops: {
+    title: "DevOps & CI/CD",
     list: [
       { name: "Git", iconPath: ICONS.git },
-      { name: "GitHub", iconPath: ICONS.github },
-      { name: "AWS", iconPath: ICONS.aws },
+      { name: "Docker", iconPath: ICONS.docker },
+      { name: "Jenkins", iconPath: ICONS.jenkins },
+      { name: "K6", iconPath: ICONS.K6 },
+      { name: "Grafana", iconPath: ICONS.Grafana },
     ],
-  }
-}
+  },
+  cloudComputing: {
+    title: "Cloud Computing",
+    list: [
+      { name: "Amazon S3", iconPath: ICONS.s3 },
+      { name: "Amazon EC2", iconPath: ICONS.ec2 },
+      { name: "AWS Lambda", iconPath: ICONS.lambda },
+    ],
+  },
+  toolsAndPlatforms: {
+    title: "Tools & Platforms",
+    list: [
+      { name: "VS Code", iconPath: ICONS.vscode },
+      { name: "MySQL Workbench", iconPath: ICONS.mysqlWorkbench },
+    ],
+  },
+};
